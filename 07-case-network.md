@@ -122,7 +122,7 @@ i j k
 
 ---
 
-## 5. 运行结果：直接 MIP vs Benders
+## 5. 运行结果：直接求解对比 Benders 分解
 
 | 规模 | 直接 MIP (HiGHS) | 直接 MIP (Gurobi) | Benders (HiGHS) | Benders (Gurobi) |
 |------|-----------------|-------------------|-----------------|-----------------|
@@ -134,7 +134,7 @@ i j k
 
 ---
 
-## 6. Python 实现概述
+## 6. 代码实现概述
 
 参见 `code/case05_network.py`。两个核心函数：
 

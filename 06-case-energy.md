@@ -1,5 +1,5 @@
 <!-- 文件: mip-course/06-case-energy.md -->
-# 案例4：发电厂调度 (Unit Commitment)
+# 案例4：发电厂调度
 
 > 难度 ★★★☆☆  ·  前置：读完 02-solver-tech.md (2.4) + 案例1  ·  求解器：HiGHS (免费)  ·  代码：code/case04_energy.py  ·  预计阅读：35min  ·  预计运行：10-20min
 
@@ -159,7 +159,7 @@ power[t-1,g] - power[t,g] ≤ ramp[g]      ∀ t ≥ 1, ∀ g ∈ G
 
 ---
 
-## 5 Python 实现概述
+## 5 代码实现概述
 
 完整代码见 `code/case04_energy.py`（约 450 行）。
 
